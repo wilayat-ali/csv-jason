@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript Objects</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+
+	const rawData=`dr_id,dr_name,outlet_id,outlet_name,volume_class,fso_name,territory,type,channel,phone_number,easypaisa_number,owner_name,owner_nic_number,owner_nic_expiry,address
+ISB_ISB_DR25,ABDULLAH,11055543,Suleman G/s,8,NASIR,Suburb,GT,VDD,,,,,,sohan
+ISB_ISB_DR29,BILAL JR,11055549,Malik ,8,NASIR,Suburb,GT,VDD,,,,,,akeel palaza
+ISB_ISB_DR25,ABDULLAH,11055551,Raja brothers ,8,NASIR,Suburb,GT,VDD,,,,,,Sohan
+ISB_ISB_DR27,FAISAL,11055365,Al Khidmat K/s,9,FAHAD,West,GT,DD,,,,,,Marjaf Allha
+ISB_ISB_DR27,FAISAL,11055358,Tuck shop ,9,FAHAD,West,GT,DD,,,,,,H-13 near prime g/s
+ISB_ISB_DR27,FAISAL,11055366,Ghossia G/s,9,FAHAD,West,GT,DD,,,,,,Marjaf Allha`
+
+var jsonObj = [];
+let rows = rawData.split('\n');
+
+var headers = rows[0].split(',');
+for(var i = 1; i < rows.length; i++) {
+  var data = rows[i].split(',');
+  var obj = {};
+  for(var j = 0; j < data.length; j++) {
+     obj[headers[j].trim()] = data[j].trim();
+  }
+  jsonObj.push(obj);
+  
+}
+console.log(jsonObj)
+
+</script>
+</html>
