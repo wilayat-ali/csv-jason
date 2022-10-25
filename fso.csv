@@ -1,7 +1,0 @@
-dr_id,dr_name,outlet_id,outlet_name,volume_class,fso_name,territory,type,channel,phone_number,easypaisa_number,owner_name,owner_nic_number,owner_nic_expiry,address
-ISB_ISB_DR25,ABDULLAH,11055543,Suleman G/s,8,NASIR,Suburb,GT,VDD,,,,,,sohan
-ISB_ISB_DR29,BILAL JR,11055549,Malik ,8,NASIR,Suburb,GT,VDD,,,,,,akeel palaza
-ISB_ISB_DR25,ABDULLAH,11055551,Raja brothers ,8,NASIR,Suburb,GT,VDD,,,,,,Sohan
-ISB_ISB_DR27,FAISAL,11055365,Al Khidmat K/s,9,FAHAD,West,GT,DD,,,,,,Marjaf Allha
-ISB_ISB_DR27,FAISAL,11055358,Tuck shop ,9,FAHAD,West,GT,DD,,,,,,H-13 near prime g/s
-ISB_ISB_DR27,FAISAL,11055366,Ghossia G/s,9,FAHAD,West,GT,DD,,,,,,Marjaf Allha
